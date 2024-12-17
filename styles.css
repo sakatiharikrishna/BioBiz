@@ -1,0 +1,44 @@
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: url('http://skbiobiz.com/images/head1.jpg') center/cover no-repeat;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+/* About Section */
+#about img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Services Section */
+.card {
+    border: none;
+    background-color:#cf2e2e;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+form .form-control {
+    border-radius: 8px;
+    padding: 0.8rem;
+}
+
+/* Footer */
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
